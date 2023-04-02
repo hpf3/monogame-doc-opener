@@ -1,0 +1,1930 @@
+{
+  "Name": "root",
+  "Children": [
+    {
+      "Name": "Microsoft",
+      "Children": [
+        {
+          "Name": "Xna",
+          "Children": [
+            {
+              "Name": "Framework",
+              "Children": [
+                {
+                  "Name": "BoundingBox",
+                  "Children": []
+                },
+                {
+                  "Name": "BoundingFrustum",
+                  "Children": []
+                },
+                {
+                  "Name": "BoundingSphere",
+                  "Children": []
+                },
+                {
+                  "Name": "Color",
+                  "Children": []
+                },
+                {
+                  "Name": "ContainmentType",
+                  "Children": []
+                },
+                {
+                  "Name": "Curve",
+                  "Children": []
+                },
+                {
+                  "Name": "CurveContinuity",
+                  "Children": []
+                },
+                {
+                  "Name": "CurveKey",
+                  "Children": []
+                },
+                {
+                  "Name": "CurveKeyCollection",
+                  "Children": []
+                },
+                {
+                  "Name": "CurveLoopType",
+                  "Children": []
+                },
+                {
+                  "Name": "CurveTangent",
+                  "Children": []
+                },
+                {
+                  "Name": "DisplayOrientation",
+                  "Children": []
+                },
+                {
+                  "Name": "DrawableGameComponent",
+                  "Children": []
+                },
+                {
+                  "Name": "FileDropEventArgs",
+                  "Children": []
+                },
+                {
+                  "Name": "FrameworkDispatcher",
+                  "Children": []
+                },
+                {
+                  "Name": "Game",
+                  "Children": []
+                },
+                {
+                  "Name": "GameComponent",
+                  "Children": []
+                },
+                {
+                  "Name": "GameComponentCollection",
+                  "Children": []
+                },
+                {
+                  "Name": "GameComponentCollectionEventArgs",
+                  "Children": []
+                },
+                {
+                  "Name": "GameRunBehavior",
+                  "Children": []
+                },
+                {
+                  "Name": "GameServiceContainer",
+                  "Children": []
+                },
+                {
+                  "Name": "GameTime",
+                  "Children": []
+                },
+                {
+                  "Name": "GameWindow",
+                  "Children": []
+                },
+                {
+                  "Name": "GraphicsDeviceInformation",
+                  "Children": []
+                },
+                {
+                  "Name": "GraphicsDeviceManager",
+                  "Children": []
+                },
+                {
+                  "Name": "ICurveEvaluator-1",
+                  "Children": []
+                },
+                {
+                  "Name": "IDrawable",
+                  "Children": []
+                },
+                {
+                  "Name": "IGameComponent",
+                  "Children": []
+                },
+                {
+                  "Name": "IGraphicsDeviceManager",
+                  "Children": []
+                },
+                {
+                  "Name": "InputKeyEventArgs",
+                  "Children": []
+                },
+                {
+                  "Name": "IPlatformBackButton",
+                  "Children": []
+                },
+                {
+                  "Name": "IUpdateable",
+                  "Children": []
+                },
+                {
+                  "Name": "LaunchParameters",
+                  "Children": []
+                },
+                {
+                  "Name": "MathHelper",
+                  "Children": []
+                },
+                {
+                  "Name": "Matrix",
+                  "Children": []
+                },
+                {
+                  "Name": "Plane",
+                  "Children": []
+                },
+                {
+                  "Name": "PlaneIntersectionType",
+                  "Children": []
+                },
+                {
+                  "Name": "PlayerIndex",
+                  "Children": []
+                },
+                {
+                  "Name": "Point",
+                  "Children": []
+                },
+                {
+                  "Name": "PreparingDeviceSettingsEventArgs",
+                  "Children": []
+                },
+                {
+                  "Name": "Quaternion",
+                  "Children": []
+                },
+                {
+                  "Name": "Ray",
+                  "Children": []
+                },
+                {
+                  "Name": "Rectangle",
+                  "Children": []
+                },
+                {
+                  "Name": "TextInputEventArgs",
+                  "Children": []
+                },
+                {
+                  "Name": "TitleContainer",
+                  "Children": []
+                },
+                {
+                  "Name": "Vector2",
+                  "Children": []
+                },
+                {
+                  "Name": "Vector3",
+                  "Children": []
+                },
+                {
+                  "Name": "Vector4",
+                  "Children": []
+                },
+                {
+                  "Name": "Audio",
+                  "Children": [
+                    {
+                      "Name": "AudioCategory",
+                      "Children": []
+                    },
+                    {
+                      "Name": "AudioChannels",
+                      "Children": []
+                    },
+                    {
+                      "Name": "AudioEmitter",
+                      "Children": []
+                    },
+                    {
+                      "Name": "AudioEngine",
+                      "Children": []
+                    },
+                    {
+                      "Name": "AudioListener",
+                      "Children": []
+                    },
+                    {
+                      "Name": "AudioStopOptions",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Cue",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DynamicSoundEffectInstance",
+                      "Children": []
+                    },
+                    {
+                      "Name": "InstancePlayLimitException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Microphone",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MicrophoneState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "NoAudioHardwareException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "NoMicrophoneConnectedException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SoundBank",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SoundEffect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SoundEffectInstance",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SoundState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "WaveBank",
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Name": "Content",
+                  "Children": [
+                    {
+                      "Name": "ContentLoadException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentManager",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentReader",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentReaderExtensions",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentSerializerAttribute",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentSerializerCollectionItemNameAttribute",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentSerializerIgnoreAttribute",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentSerializerRuntimeTypeAttribute",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentSerializerTypeVersionAttribute",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentTypeReader",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentTypeReader-1",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ContentTypeReaderManager",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ResourceContentManager",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Pipeline",
+                      "Children": [
+                        {
+                          "Name": "ChildCollection-2",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentBuildLogger",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentIdentity",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentImporter-1",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentImporterAttribute",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentImporterContext",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentItem",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentProcessor-2",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentProcessorAttribute",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentProcessorContext",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentStats",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ContentStatsCollection",
+                          "Children": []
+                        },
+                        {
+                          "Name": "EffectImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ExternalReference-1",
+                          "Children": []
+                        },
+                        {
+                          "Name": "FbxImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "FontDescriptionImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "H264Importer",
+                          "Children": []
+                        },
+                        {
+                          "Name": "IContentImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "IContentProcessor",
+                          "Children": []
+                        },
+                        {
+                          "Name": "InvalidContentException",
+                          "Children": []
+                        },
+                        {
+                          "Name": "LoadedTypeCollection-1",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Mp3Importer",
+                          "Children": []
+                        },
+                        {
+                          "Name": "NamedValueDictionary-1",
+                          "Children": []
+                        },
+                        {
+                          "Name": "OggImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "OpaqueDataDictionary",
+                          "Children": []
+                        },
+                        {
+                          "Name": "OpenAssetImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "PipelineComponentScanner",
+                          "Children": []
+                        },
+                        {
+                          "Name": "PipelineException",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ProcessorParameter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "ProcessorParameterCollection",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TargetPlatform",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TextureImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "VideoContent",
+                          "Children": []
+                        },
+                        {
+                          "Name": "WavImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "WmaImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "WmvImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "XImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "XmlImporter",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Audio",
+                          "Children": [
+                            {
+                              "Name": "AudioContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AudioFileType",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AudioFormat",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AudioProfile",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ConversionFormat",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ConversionQuality",
+                              "Children": []
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Builder",
+                          "Children": [
+                            {
+                              "Name": "Convertors",
+                              "Children": [
+                                {
+                                  "Name": "StringToColorConverter",
+                                  "Children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Graphics",
+                          "Children": [
+                            {
+                              "Name": "ABCFloat",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AlphaTestMaterialContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AnimationChannel",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AnimationChannelDictionary",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AnimationContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AnimationContentDictionary",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AnimationKeyframe",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AtcBitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AtcExplicitBitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "AtcInterpolatedBitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "BasicMaterialContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "BoneContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "BoneWeight",
+                              "Children": []
+                            },
+                            {
+                              "Name": "BoneWeightCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "CharacterRegion",
+                              "Children": []
+                            },
+                            {
+                              "Name": "CharacterRegionTypeConverter",
+                              "Children": []
+                            },
+                            {
+                              "Name": "DualTextureMaterialContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "Dxt1BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "Dxt3BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "Dxt5BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "DxtBitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "EffectContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "EffectMaterialContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "EnvironmentMapMaterialContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "Etc1BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "FontDescription",
+                              "Children": []
+                            },
+                            {
+                              "Name": "FontDescriptionStyle",
+                              "Children": []
+                            },
+                            {
+                              "Name": "GeometryContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "GeometryContentCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "GraphicsUtil",
+                              "Children": []
+                            },
+                            {
+                              "Name": "GrowRule",
+                              "Children": []
+                            },
+                            {
+                              "Name": "IndexCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "IndirectPositionCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "LocalizedFontDescription",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MaterialContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MaxRectsBin",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MaxRectsHeuristic",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MeshBuilder",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MeshContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MeshHelper",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MipmapChain",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MipmapChainCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "NodeContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "NodeContentCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PixelBitmapContent-1",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PositionCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PvrtcBitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PvrtcRgb2BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PvrtcRgb4BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PvrtcRgba2BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PvrtcRgba4BitmapContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "SkinnedMaterialContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "SpriteFontContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "Texture2DContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "Texture3DContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "TextureContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "TextureCubeContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "TextureProfile",
+                              "Children": []
+                            },
+                            {
+                              "Name": "TextureReferenceDictionary",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VertexChannel",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VertexChannel-1",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VertexChannelCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VertexChannelNames",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VertexContent",
+                              "Children": []
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Processors",
+                          "Children": [
+                            {
+                              "Name": "CompiledEffectContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "EffectProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "EffectProcessorDebugMode",
+                              "Children": []
+                            },
+                            {
+                              "Name": "FontDescriptionProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "FontTextureProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "LocalizedFontProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MaterialProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "MaterialProcessorDefaultEffect",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelBoneContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelBoneContentCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelMeshContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelMeshContentCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelMeshPartContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelMeshPartContentCollection",
+                              "Children": []
+                            },
+                            {
+                              "Name": "ModelProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "PassThroughProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "SongContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "SongProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "SoundEffectContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "SoundEffectProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "TextureProcessor",
+                              "Children": []
+                            },
+                            {
+                              "Name": "TextureProcessorOutputFormat",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VertexBufferContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VertexDeclarationContent",
+                              "Children": []
+                            },
+                            {
+                              "Name": "VideoProcessor",
+                              "Children": []
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "Serialization",
+                          "Children": [
+                            {
+                              "Name": "Compiler",
+                              "Children": [
+                                {
+                                  "Name": "ContentCompiler",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "ContentTypeWriter",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "ContentTypeWriter-1",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "ContentTypeWriterAttribute",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "ContentWriter",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "SpriteFontContentWriter",
+                                  "Children": []
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "Intermediate",
+                              "Children": [
+                                {
+                                  "Name": "ContentTypeSerializer",
+                                  "Children": [
+                                    {
+                                      "Name": "ChildCallback",
+                                      "Children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Name": "ContentTypeSerializer-1",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "ContentTypeSerializerAttribute",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "IntermediateReader",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "IntermediateSerializer",
+                                  "Children": []
+                                },
+                                {
+                                  "Name": "IntermediateWriter",
+                                  "Children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "Design",
+                  "Children": [
+                    {
+                      "Name": "Vector2TypeConverter",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Vector3TypeConverter",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Vector4TypeConverter",
+                      "Children": []
+                    }
+                  ]
+                },
+                {
+                  "Name": "Graphics",
+                  "Children": [
+                    {
+                      "Name": "AlphaTestEffect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "BasicEffect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Blend",
+                      "Children": []
+                    },
+                    {
+                      "Name": "BlendFunction",
+                      "Children": []
+                    },
+                    {
+                      "Name": "BlendState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "BufferUsage",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ClearOptions",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ColorWriteChannels",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CompareFunction",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CubeMapFace",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CullMode",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DefaultColorProcessors",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DepthFormat",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DepthStencilState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DeviceLostException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DeviceNotResetException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DirectionalLight",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DisplayMode",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DisplayModeCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DualTextureEffect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DynamicIndexBuffer",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DynamicVertexBuffer",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Effect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectAnnotation",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectAnnotationCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectMaterial",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectParameter",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectParameterClass",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectParameterCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectParameterType",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectPass",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectPassCollection",
+                      "Children": [
+                        {
+                          "Name": "Enumerator",
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "EffectTechnique",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EffectTechniqueCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "EnvironmentMapEffect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "FillMode",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GraphicsAdapter",
+                      "Children": [
+                        {
+                          "Name": "DriverType",
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "GraphicsDebug",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GraphicsDebugMessage",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GraphicsDevice",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GraphicsDeviceStatus",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GraphicsMetrics",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GraphicsProfile",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GraphicsResource",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IEffectBones",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IEffectFog",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IEffectLights",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IEffectMatrices",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IGraphicsDeviceService",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IndexBuffer",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IndexElementSize",
+                      "Children": []
+                    },
+                    {
+                      "Name": "IVertexType",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Model",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ModelBone",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ModelBoneCollection",
+                      "Children": [
+                        {
+                          "Name": "Enumerator",
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "ModelEffectCollection",
+                      "Children": [
+                        {
+                          "Name": "Enumerator",
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "ModelMesh",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ModelMeshCollection",
+                      "Children": [
+                        {
+                          "Name": "Enumerator",
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "ModelMeshPart",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ModelMeshPartCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "NoSuitableGraphicsDeviceException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "OcclusionQuery",
+                      "Children": []
+                    },
+                    {
+                      "Name": "PresentationParameters",
+                      "Children": []
+                    },
+                    {
+                      "Name": "PresentInterval",
+                      "Children": []
+                    },
+                    {
+                      "Name": "PrimitiveType",
+                      "Children": []
+                    },
+                    {
+                      "Name": "RasterizerState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "RenderTarget2D",
+                      "Children": []
+                    },
+                    {
+                      "Name": "RenderTarget3D",
+                      "Children": []
+                    },
+                    {
+                      "Name": "RenderTargetBinding",
+                      "Children": []
+                    },
+                    {
+                      "Name": "RenderTargetCube",
+                      "Children": []
+                    },
+                    {
+                      "Name": "RenderTargetUsage",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ResourceCreatedEventArgs",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ResourceDestroyedEventArgs",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SamplerState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SamplerStateCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SetDataOptions",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SkinnedEffect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SpriteBatch",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SpriteEffect",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SpriteEffects",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SpriteFont",
+                      "Children": [
+                        {
+                          "Name": "Glyph",
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "SpriteSortMode",
+                      "Children": []
+                    },
+                    {
+                      "Name": "StencilOperation",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SurfaceFormat",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SwapChainRenderTarget",
+                      "Children": []
+                    },
+                    {
+                      "Name": "TargetBlendState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Texture",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Texture2D",
+                      "Children": [
+                        {
+                          "Name": "SurfaceType",
+                          "Children": []
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Texture3D",
+                      "Children": []
+                    },
+                    {
+                      "Name": "TextureAddressMode",
+                      "Children": []
+                    },
+                    {
+                      "Name": "TextureCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "TextureCube",
+                      "Children": []
+                    },
+                    {
+                      "Name": "TextureFilter",
+                      "Children": []
+                    },
+                    {
+                      "Name": "TextureFilterMode",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexBuffer",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexBufferBinding",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexDeclaration",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexElement",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexElementFormat",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexElementUsage",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexPosition",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexPositionColor",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexPositionColorNormal",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexPositionColorNormalTexture",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexPositionColorTexture",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexPositionNormalTexture",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VertexPositionTexture",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Viewport",
+                      "Children": []
+                    },
+                    {
+                      "Name": "PackedVector",
+                      "Children": [
+                        {
+                          "Name": "Alpha8",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Bgr565",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Bgra4444",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Bgra5551",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Byte4",
+                          "Children": []
+                        },
+                        {
+                          "Name": "HalfSingle",
+                          "Children": []
+                        },
+                        {
+                          "Name": "HalfVector2",
+                          "Children": []
+                        },
+                        {
+                          "Name": "HalfVector4",
+                          "Children": []
+                        },
+                        {
+                          "Name": "IPackedVector",
+                          "Children": []
+                        },
+                        {
+                          "Name": "IPackedVector-1",
+                          "Children": []
+                        },
+                        {
+                          "Name": "NormalizedByte2",
+                          "Children": []
+                        },
+                        {
+                          "Name": "NormalizedByte4",
+                          "Children": []
+                        },
+                        {
+                          "Name": "NormalizedShort2",
+                          "Children": []
+                        },
+                        {
+                          "Name": "NormalizedShort4",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Rg32",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Rgba1010102",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Rgba64",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Short2",
+                          "Children": []
+                        },
+                        {
+                          "Name": "Short4",
+                          "Children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "Input",
+                  "Children": [
+                    {
+                      "Name": "Buttons",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ButtonState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePad",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadButtons",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadCapabilities",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadDeadZone",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadDPad",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadThumbSticks",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadTriggers",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GamePadType",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Joystick",
+                      "Children": []
+                    },
+                    {
+                      "Name": "JoystickCapabilities",
+                      "Children": []
+                    },
+                    {
+                      "Name": "JoystickHat",
+                      "Children": []
+                    },
+                    {
+                      "Name": "JoystickState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Keyboard",
+                      "Children": []
+                    },
+                    {
+                      "Name": "KeyboardInput",
+                      "Children": []
+                    },
+                    {
+                      "Name": "KeyboardState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Keys",
+                      "Children": []
+                    },
+                    {
+                      "Name": "KeyState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MessageBox",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Mouse",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MouseCursor",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MouseState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Touch",
+                      "Children": [
+                        {
+                          "Name": "GestureSample",
+                          "Children": []
+                        },
+                        {
+                          "Name": "GestureType",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TouchCollection",
+                          "Children": [
+                            {
+                              "Name": "Enumerator",
+                              "Children": []
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "TouchLocation",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TouchLocationState",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TouchPanel",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TouchPanelCapabilities",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TouchPanelState",
+                          "Children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "Media",
+                  "Children": [
+                    {
+                      "Name": "Album",
+                      "Children": []
+                    },
+                    {
+                      "Name": "AlbumCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Artist",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Genre",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MediaLibrary",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MediaPlayer",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MediaQueue",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MediaSource",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MediaSourceType",
+                      "Children": []
+                    },
+                    {
+                      "Name": "MediaState",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Playlist",
+                      "Children": []
+                    },
+                    {
+                      "Name": "PlaylistCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Song",
+                      "Children": []
+                    },
+                    {
+                      "Name": "SongCollection",
+                      "Children": []
+                    },
+                    {
+                      "Name": "Video",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VideoPlayer",
+                      "Children": []
+                    },
+                    {
+                      "Name": "VideoSoundtrackType",
+                      "Children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "MonoGame",
+      "Children": [
+        {
+          "Name": "Framework",
+          "Children": [
+            {
+              "Name": "Content",
+              "Children": [
+                {
+                  "Name": "Pipeline",
+                  "Children": [
+                    {
+                      "Name": "Builder",
+                      "Children": [
+                        {
+                          "Name": "FileHelper",
+                          "Children": []
+                        },
+                        {
+                          "Name": "PathHelper",
+                          "Children": []
+                        },
+                        {
+                          "Name": "PipelineBuildEvent",
+                          "Children": [
+                            {
+                              "Name": "Pair",
+                              "Children": []
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "PipelineBuildLogger",
+                          "Children": []
+                        },
+                        {
+                          "Name": "PipelineImporterContext",
+                          "Children": []
+                        },
+                        {
+                          "Name": "PipelineManager",
+                          "Children": []
+                        },
+                        {
+                          "Name": "PipelineProcessorContext",
+                          "Children": []
+                        },
+                        {
+                          "Name": "TypeExtensions",
+                          "Children": []
+                        },
+                        {
+                          "Name": "XmlColor",
+                          "Children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "Utilities",
+              "Children": [
+                {
+                  "Name": "CompressionLevel",
+                  "Children": []
+                },
+                {
+                  "Name": "CompressionMode",
+                  "Children": []
+                },
+                {
+                  "Name": "FlushType",
+                  "Children": []
+                },
+                {
+                  "Name": "GraphicsBackend",
+                  "Children": []
+                },
+                {
+                  "Name": "MonoGamePlatform",
+                  "Children": []
+                },
+                {
+                  "Name": "PlatformInfo",
+                  "Children": []
+                },
+                {
+                  "Name": "ZlibStream",
+                  "Children": []
+                },
+                {
+                  "Name": "Deflate",
+                  "Children": [
+                    {
+                      "Name": "Adler",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CompressionLevel",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CompressionMode",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CompressionStrategy",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CRC32",
+                      "Children": []
+                    },
+                    {
+                      "Name": "CrcCalculatorStream",
+                      "Children": []
+                    },
+                    {
+                      "Name": "DeflateStream",
+                      "Children": []
+                    },
+                    {
+                      "Name": "FlushType",
+                      "Children": []
+                    },
+                    {
+                      "Name": "GZipStream",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ZlibCodec",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ZlibConstants",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ZlibException",
+                      "Children": []
+                    },
+                    {
+                      "Name": "ZlibStream",
+                      "Children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

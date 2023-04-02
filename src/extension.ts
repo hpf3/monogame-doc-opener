@@ -2,24 +2,40 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
+//import the debug functions
+import * as debug from './functions/debug';
+
+//import the logger functions
+import * as logger from './functions/logger';
+
+//import the registry
+import * as registry from './registry';
+
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "monogame-doc-opener" is now active!');
+	logger.logMessage('Congratulations, your extension "'+context.extension.id+'" is now active!');
 
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with registerCommand
-	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('monogame-doc-opener.helloWorld', () => {
+	//activate the registry
+	registry.activate(context);
+
+	//command to open the documentation
+	let commandMain = vscode.commands.registerCommand('monogame-doc-opener.openDoc', () => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Hello World from MonoGame-Doc-Opener!');
 	});
 
-	context.subscriptions.push(disposable);
+	//test command to output the available api from the specified extension
+	let commandDebug = vscode.commands.registerCommand('monogame-doc-opener.viewAvailableApis', async() => {
+		await debug.viewAvailableApisFromAllExtensions();
+	});
+
+	context.subscriptions.push(commandMain);
+	context.subscriptions.push(commandDebug);
 }
 
 // This method is called when your extension is deactivated

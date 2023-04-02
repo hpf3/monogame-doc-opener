@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"eskibear.extension-devtools",
+			"stringham.move-ts"
+		]
+	}
+}

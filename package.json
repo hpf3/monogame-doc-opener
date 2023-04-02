@@ -1,7 +1,7 @@
 {
   "name": "monogame-doc-opener",
   "displayName": "MonoGame-Doc-Opener",
-  "description": "adds a option in the context menu to try and open the related monogame docs webpage, optionally in an internal browser",
+  "description": "adds a option in the context menu to try and open the related monogame docs webpage, optionally in an internal browser \n credit to @Young-Vform for their extension 'Copy Hover Type', which helped me figure out my major roadblock, https://marketplace.visualstudio.com/items?itemName=Young-Vform.copy-hover-type",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.77.0"
@@ -9,15 +9,28 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:editor.action.showContextMenu"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "monogame-doc-opener.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+        "command": "monogame-doc-opener.openDoc",
+        "title": "monogame: Open MonoGame Docs"
+      },
+      {
+        "command": "monogame-doc-opener.viewAvailableApis",
+        "title": "monogame-debug:view available apis"}
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "monogame-doc-opener.openDoc",
+          "when": "editorTextFocus && editorLangId == 'csharp'"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
@@ -45,5 +58,9 @@
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1",
     "@vscode/test-electron": "^2.3.0"
-  }
+  },
+  "extensionDependencies": [
+    "ms-dotnettools.csharp",
+    "wilhelmer.remove-markdown-links"
+  ]
 }
