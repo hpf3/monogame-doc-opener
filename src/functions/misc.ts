@@ -4,6 +4,7 @@ import * as vscode from 'vscode';
 //load the logger module
 import * as logger from './logger';
 
+
 //wrapper function for the extensions.getExtension function
 export function getExtension(extensionName: string) {
     //get the extension
