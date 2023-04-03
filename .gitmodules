@@ -1,4 +1,0 @@
-[submodule "src/submodules/copy-hover-type"]
-	path = src/submodules/copy-hover-type
-	url = https://github.com/youngvform/copy-hover-type.git
-	branch = master

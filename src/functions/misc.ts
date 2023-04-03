@@ -4,6 +4,9 @@ import * as vscode from 'vscode';
 //load the logger module
 import * as logger from './logger';
 
+//import submodules
+import * as copyHover from '../submodules/copy-hover-type/src/extension';
+const getPlainText = (copyHover as any).getPlainText;
 
 //wrapper function for the extensions.getExtension function
 export function getExtension(extensionName: string) {
@@ -98,4 +101,12 @@ export function getRightClickPosition() {
         //return the position
         return position;
     }
+}
+
+//get the text from the hover window
+export function getHoverText() {
+    //get the plaintext from the hover window
+    let hoverText = getPlainText();
+    logger.logMessage('hoverText: ' + hoverText);
+    
 }

@@ -27,7 +27,7 @@
       "editor/context": [
         {
           "command": "monogame-doc-opener.openDoc",
-          "when": "editorTextFocus && editorLangId == 'csharp'"
+          "when": "editorTextFocus && editorLangId == 'csharp'|| debugExtensionAvailable"
         }
       ]
     }

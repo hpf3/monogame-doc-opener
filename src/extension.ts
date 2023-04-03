@@ -11,6 +11,9 @@ import * as logger from './functions/logger';
 //import the registry
 import * as registry from './registry';
 
+//import misc functions
+import * as misc from './functions/misc';
+
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
@@ -23,10 +26,12 @@ export function activate(context: vscode.ExtensionContext) {
 	registry.activate(context);
 
 	//command to open the documentation
-	let commandMain = vscode.commands.registerCommand('monogame-doc-opener.openDoc', () => {
+	let commandMain = vscode.commands.registerCommand('monogame-doc-opener.openDoc', async() => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Hello World from MonoGame-Doc-Opener!');
+
+		await misc.getHoverText();
 	});
 
 	//test command to output the available api from the specified extension
